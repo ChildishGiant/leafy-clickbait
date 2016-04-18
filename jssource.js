@@ -19,7 +19,7 @@ var placeish = ["on the internet","on youtube","on earth",
 "to ever live in this world"]
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " says he is going to kill me"," is in love with me"," (literally eats rocks)",
-" (literally drills himself)"," exposes me"]
+" (literally drills themself)"," exposes me"]
 var fontfaces = ["'Ubuntu', sans-serif", "'Dancing Script', cursive"];
 
 function randombool(){
