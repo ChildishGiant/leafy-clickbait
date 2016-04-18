@@ -7,9 +7,12 @@ $(document).ready(function() {
   changetext(gen());
 });
 
-document.onkeypress = function (e) {
-  changetext(gen())
-};
+$(document).on("keypress", function (e) {
+    // use e.which
+    if (e.which == 32){
+      changetext(gen())
+    }
+});
 
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic "]
