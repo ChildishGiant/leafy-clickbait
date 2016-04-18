@@ -3,11 +3,16 @@ var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ","worst
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ","girl ","manchild ","rapper ","frozen animation "]
 var placeish = ["on the internet","on youtube","on earth","on the entire internet","to ever touch the internet","to ever be witnessed","to ever live"]
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever"," says he is going to kill me"," is in love with me"," (literally eats rocks)"]
-
+var fontfaces = ["'Ubuntu', sans-serif", "'Dancing Script', cursive"];
 
 function randombool(){
   var randbool = Math.random()
   return randbool
+}
+
+function fontToggle(){
+  $('.aids').css('font-family', fontfaces[0]);
+  fontfaces.reverse();
 }
 
 function gen(){
@@ -23,7 +28,7 @@ function gen(){
   aids = aids.concat(noun[Math.floor(Math.random() * noun.length)]);
   aids = aids.concat(placeish[Math.floor(Math.random() * placeish.length)]);
 
-  if (Math.random() < 1/3){
+  if (Math.random() > 1/3){
     aids = aids.concat(cherry[Math.floor(Math.random() * cherry.length)]);
   }
 
