@@ -1,3 +1,12 @@
+function changetext(a){
+  var aids = $("#aids");
+  $(aids).text(a);
+}
+
+$(document).ready(function() {
+  changetext(gen());
+});
+
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic"]
 var ists = ["nastiest ""cringiest ","hottest ","unhappyist ","scariest ",
