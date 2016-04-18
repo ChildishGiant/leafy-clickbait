@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@font-face {
+	font-family: em;
+	src: url('EmojiSymbols-Regular.woff');
+}
+.aids{
+  font-size: 6em;
+	font-family: 'Dancing Script', cursive;
+  color: #fff;
+  width:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style:solid;
+  text-decoration-color: #3c3c3c;
+  -webkit-text-decoration-color: #3c3c3c;
+  -moz-text-decoration-color: #3c3c3c;
+	moz-transition:all .2s ease-in;
+	-o-transition:all .2s ease-in;
+	-webkit-transition:all .2s ease-in;
+	transition:all .2s ease-in;
+}
+
+.aids:hover{
+  text-decoration-color: #2f2d2d;
+  -webkit-text-decoration-color: #2f2d2d;
+  -moz-text-decoration-color: #2f2d2d;
+}
+
+html{
+  background-color: #5e5e5e;
+  font-family: 'Ubuntu', sans-serif;
+	color: #1b1b1b;
+}
+
+#footnote{
+  top:95%;
+  height: 5%;
+  width:100%;
+  text-align: center;
+  position: fixed;
+  font-size: 1em;
+}
+
+.heart {
+  fill: red;
+	width: 30px;
+}
+
+a{
+	color: #1b1b1b;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(192, 192, 192, 0);
+	-webkit-transition: border 500ms ease;
+	-moz-transition: border 500ms ease;
+	-ms-transition: border 500ms ease;
+	-o-transition: border 500ms ease;
+	transition: border 500ms ease;
+}
+
+a:hover{
+	border-bottom: 1px solid #2f2d2d;
+}
