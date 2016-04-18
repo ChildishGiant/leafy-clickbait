@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic"]
-var ists = ["nastiest ""cringiest ","hottest ","unhappyist ","scariest ",
+var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 "worst ","biggest ","best "]
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
@@ -51,9 +51,4 @@ function gen(){
 
   aids = aids.toUpperCase();
   return aids
-}
-
-function changetext(a){
-  var aids = $("#aids")
-  $(aids).text(a)
 }
