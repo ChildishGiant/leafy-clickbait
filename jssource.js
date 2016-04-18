@@ -8,7 +8,7 @@ $(document).ready(function() {
 });
 
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
-"disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic"]
+"disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic "]
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 "worst ","biggest ","best "]
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
