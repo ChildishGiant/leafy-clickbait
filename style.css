@@ -1,10 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
-@font-face {
-	font-family: em;
-	src: url('EmojiSymbols-Regular.woff');
-}
+
 .aids{
   font-size: 6em;
 	font-family: 'Dancing Script', cursive;
@@ -65,4 +62,23 @@ a{
 
 a:hover{
 	border-bottom: 1px solid #2f2d2d;
+}
+
+#button{
+	float: right;
+	border: 2px solid #fff;
+	padding: 2px;
+	color: #fff;
+	font-size: 2em;
+	background-color: #5e5e5e;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+#button:hover{
+	background-color: #fff;
+	color: #5e5e5e;
 }
