@@ -23,7 +23,7 @@ var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
 "music video ","furry ","human being ","human ","animation ","girls "]
-var placeish = ["on the internet","on youtube","on earth","planet earth",
+var placeish = ["on the internet","on youtube","on earth","on planet earth",
 "on the entire internet","to ever touch the internet","to ever be witnessed",
 "to ever live in this world","ever to be created on the internet","to ever live"]
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
