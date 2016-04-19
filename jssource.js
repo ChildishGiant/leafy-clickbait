@@ -9,6 +9,7 @@ $(document).ready(function() {
 
 $(document).on("keypress", function (e) {
     // use e.which
+    console.log(e.which)
     if (e.which == 32){
       changetext(gen())
     }
