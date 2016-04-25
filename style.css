@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
-.aids{
+.answer{
   font-size: 5em;
 	font-family: 'Dancing Script', cursive;
   color: #fff;
@@ -23,7 +23,7 @@
 	transition:all .2s ease-in;
 }
 
-.aids:hover{
+.answer:hover{
   text-decoration-color: #2f2d2d;
   -webkit-text-decoration-color: #2f2d2d;
   -moz-text-decoration-color: #2f2d2d;

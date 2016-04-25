@@ -1,6 +1,6 @@
 function changetext(a){
-  var aids = $("#aids");
-  $(aids).text(a);
+  var answer = $("#answer");
+  $(answer).text(a);
 }
 
 $(document).ready(function() {
@@ -44,27 +44,27 @@ function randombool(){
 }
 
 function fontToggle(){
-  $('.aids').css('font-family', fontfaces[0]);
+  $('.answer').css('font-family', fontfaces[0]);
   fontfaces.reverse();
 }
 
 function gen(){
-  aids = "the ";
+  newTitle = "the ";
   if (randombool() > .5){
-    aids = aids.concat("most ");
-    aids = aids.concat(intensifiers[Math.floor(Math.random() * intensifiers.length)]);
+    newTitle = newTitle.concat("most ");
+    newTitle = newTitle.concat(intensifiers[Math.floor(Math.random() * intensifiers.length)]);
   }
   else{
-    aids = aids.concat(ists[Math.floor(Math.random() * ists.length)]);
+    newTitle = newTitle.concat(ists[Math.floor(Math.random() * ists.length)]);
   }
 
-  aids = aids.concat(noun[Math.floor(Math.random() * noun.length)]);
-  aids = aids.concat(placeish[Math.floor(Math.random() * placeish.length)]);
+  newTitle = newTitle.concat(noun[Math.floor(Math.random() * noun.length)]);
+  newTitle = newTitle.concat(placeish[Math.floor(Math.random() * placeish.length)]);
 
   if (Math.random() > 1/3){
-    aids = aids.concat(cherry[Math.floor(Math.random() * cherry.length)]);
+    newTitle = newTitle.concat(cherry[Math.floor(Math.random() * cherry.length)]);
   }
 
-  aids = aids.toUpperCase();
-  return aids
+  newTitle = newTitle.toUpperCase();
+  return newTitle
 }
