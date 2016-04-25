@@ -20,7 +20,8 @@ var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "miserable "];
 
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
-"worst ","biggest ","best ","sexiest ","dirtiest ","maddest ","craziest "];
+"worst ","biggest ","best ","sexiest ","dirtiest ","maddest ","craziest ",
+"saddest "];
 
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
