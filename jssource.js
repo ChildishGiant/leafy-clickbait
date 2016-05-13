@@ -26,7 +26,7 @@ var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
 "music video ","furry ","human being ","human ","animation ","girls ",
-"cyber bully"];
+"cyber bully "];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
 "on the entire internet","to ever touch the internet","to ever be witnessed",
