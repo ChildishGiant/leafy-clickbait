@@ -17,15 +17,16 @@ $(document).on("keypress", function (e) {
 
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic ",
-"miserable "];
+"miserable ","savage cringey ","offensive "];
 
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 "worst ","biggest ","best ","sexiest ","dirtiest ","maddest ","craziest ",
-"saddest "];
+"saddest ","spookiest ","filthiest "];
 
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
-"music video ","furry ","human being ","human ","animation ","girls "];
+"music video ","furry ","human being ","human ","animation ","girls ",
+"cyber bully"];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
 "on the entire internet","to ever touch the internet","to ever be witnessed",
@@ -35,7 +36,8 @@ var placeish = ["on the internet","on youtube","on earth","on planet earth",
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " says he is going to kill me"," is in love with me"," (literally eats rocks)",
 " (literally drills themself)"," exposes me"," ever to be made",
-" (literally eats bricks)"," (literally breaks into military base)"];
+" (literally eats bricks)"," (literally breaks into military base)",
+" (literally eats cat hair)"];
 
 var fontfaces = ["'Ubuntu', sans-serif", "'Dancing Script', cursive"];
 
