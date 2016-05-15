@@ -37,7 +37,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " says he is going to kill me"," is in love with me"," (literally eats rocks)",
 " (literally drills themself)"," exposes me"," ever to be made",
 " (literally eats bricks)"," (literally breaks into military base)",
-" (literally eats cat hair)"];
+" (literally eats cat hair)","says he is literally going to find and kill me"];
 
 var fontfaces = ["'Ubuntu', sans-serif", "'Dancing Script', cursive"];
 
