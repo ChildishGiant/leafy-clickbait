@@ -7,7 +7,7 @@ $(document).ready(function() {
   changetext(gen());
 });
 
-$(document).keypress(function(e) { 
+$(document).keypress(function(e) {
   changetext(gen());
 });
 
@@ -35,7 +35,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " (literally eats bricks)"," (literally breaks into military base)",
 " (literally eats cat hair)","says he is literally going to find and kill me"];
 
-var fontfaces = ["'Ubuntu', sans-serif", "'Dancing Script', cursive"];
+var fontfaces = ["'Open Sans', sans-serif;", "'Dancing Script', cursive"];
 
 function randombool(){
   var randbool = Math.random()
