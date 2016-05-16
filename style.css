@@ -13,9 +13,9 @@
   text-align: center;
   text-decoration: underline;
   text-decoration-style:solid;
-  text-decoration-color: #3c3c3c;
-  -webkit-text-decoration-color: #3c3c3c;
-  -moz-text-decoration-color: #3c3c3c;
+  text-decoration-color: rgba(36, 36, 36, .4);
+  -webkit-text-decoration-color: rgba(36, 36, 36, .4);
+  -moz-text-decoration-color: rgba(36, 36, 36, .4);
 	moz-transition:all .2s ease-in;
 	-o-transition:all .2s ease-in;
 	-webkit-transition:all .2s ease-in;
@@ -24,15 +24,15 @@
 }
 
 .answer:hover{
-  text-decoration-color: #2f2d2d;
-  -webkit-text-decoration-color: #2f2d2d;
-  -moz-text-decoration-color: #2f2d2d;
+  text-decoration-color: rgba(36, 36, 36, .9);
+  -webkit-text-decoration-color: rgba(36, 36, 36, .9);
+  -moz-text-decoration-color: rgba(36, 36, 36, .9);
 }
 
 html{
-  background-color: #5e5e5e;
+  color:#fff;
+  background-color: #3b3b3b;
   font-family: 'Roboto', sans-serif;
-	color: #1b1b1b;
 }
 
 #footnote{
@@ -50,18 +50,7 @@ html{
 }
 
 a{
-	color: #1b1b1b;
-	text-decoration: none;
-	border-bottom: 1px solid rgba(192, 192, 192, 0);
-	-webkit-transition: border 500ms ease;
-	-moz-transition: border 500ms ease;
-	-ms-transition: border 500ms ease;
-	-o-transition: border 500ms ease;
-	transition: border 500ms ease;
-}
-
-a:hover{
-	border-bottom: 1px solid #2f2d2d;
+  color:#fff;
 }
 
 #button{
