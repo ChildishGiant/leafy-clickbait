@@ -1,6 +1,6 @@
 function changetext(a){
   var answer = $("#answer");
-  $(answer).text(a);
+  $(answer).html(a);
 }
 
 $(document).ready(function() {
@@ -35,7 +35,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " (literally eats bricks)"," (literally breaks into military base)",
 " (literally eats cat hair)","says he is literally going to find and kill me"];
 
-var fontfaces = ["'Open Sans', sans-serif;", "'Dancing Script', cursive"];
+var fontfaces = ["'Roboto', sans-serif", "'Dancing Script', cursive"];
 
 function randombool(){
   var randbool = Math.random()
