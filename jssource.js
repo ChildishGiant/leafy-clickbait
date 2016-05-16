@@ -7,12 +7,8 @@ $(document).ready(function() {
   changetext(gen());
 });
 
-$(document).on("keypress", function (e) {
-    // use e.which
-    console.log(e.which)
-    if (e.which == 32){
-      changetext(gen());
-    }
+$(document).keypress(function(e) { 
+  changetext(gen());
 });
 
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
