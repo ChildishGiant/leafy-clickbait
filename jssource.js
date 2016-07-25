@@ -14,36 +14,44 @@ $(document).keypress(function(e) {
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic ",
 "miserable ","savage cringey ","offensive ","insane ","sexually desperate ",
-"offended "];
+"offended ","racist ","crazed ","annoying ","motivational "
+];
 
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 "worst ","biggest ","best ","sexiest ","dirtiest ","maddest ","craziest ",
-"saddest ","spookiest ","filthiest ","angriest ","strangest "];
+"saddest ","spookiest ","filthiest ","angriest ","strangest ","fattest "
+];
 
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
 "music video ","furry ","human being ","human ","animation ","girls ",
-"cyber bully ","feminist ","emo man "];
+"cyber bully ","feminist ","emo man ","nazi girl ","feminist chick ",
+"mental breakdown ","youtube girl ","vegan ","diss track ","speeach "
+];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
 "on the entire internet","to ever touch the internet","to ever be witnessed",
 "to ever live in this world","ever to be created on the internet","to ever live"
-,"on all of youtube"
+,"on all of youtube","to exist on youtube ever","on youtube to ever exist",
+"of all time","ever","you'll ever witness on this website","ever to be made"
 ];
 
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " says they are going to kill me"," is in love with me"," (literally eats rocks)",
-" (literally drills themself)"," exposes me"," ever to be made",
-" (literally eats bricks)"," (literally breaks into military base)",
-" (literally eats cat hair)"," says they are literally going to find and kill me",
-" tries to have sex with a melon"," rages at me"];
+" (literally drills themself)"," exposes me"," (literally eats bricks)",
+" (literally breaks into military base)"," (literally eats cat hair)",
+" says they are literally going to find and kill me",
+" tries to have sex with a melon"," rages at me"," claims teletubbies did 9/11",
+" takes a bath with me"," strikes again"," returns with fire",
+" claims i raped him"," says they will never shave themself"," tries to be cute",
+" tries to get some ass"," verbally abuses science class itself",
+" wants to literally fart in your face",
+" makes a virus that makes your computer explode",
+" (calls themself the tupac of youtube)"," says all white people are racist",
+" attempts to rap"," starts a youtube plague"," becomes female"
+];
 
 var fontfaces = ["'Roboto', sans-serif", "'Dancing Script', cursive"];
-
-function randombool(){
-  var randbool = Math.random()
-  return randbool
-}
 
 function fontToggle(){
   $('.answer').css('font-family', fontfaces[0]);
@@ -52,7 +60,7 @@ function fontToggle(){
 
 function gen(){
   newTitle = "the ";
-  if (randombool() > .5){
+  if (Math.random() > .5){
     newTitle = newTitle.concat("most ");
     newTitle = newTitle.concat(intensifiers[Math.floor(Math.random() * intensifiers.length)]);
   }
@@ -68,5 +76,5 @@ function gen(){
   }
 
   newTitle = newTitle.toUpperCase();
-  return newTitle
+  return newTitle;
 }
