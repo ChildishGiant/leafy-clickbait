@@ -14,7 +14,7 @@ $(document).keypress(function(e) {
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic ",
 "miserable ","savage cringey ","offensive ","insane ","sexually desperate ",
-"offended ","racist ","crazed ","annoying ","motivational "
+"offended ","racist ","crazed ","annoying ","motivational ","upset "
 ];
 
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
@@ -26,7 +26,7 @@ var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "girl ","manchild ","rapper ","frozen animation ", "pussy slayer ", "youtuber ",
 "music video ","furry ","human being ","human ","animation ","girls ",
 "cyber bully ","feminist ","emo man ","nazi girl ","feminist chick ",
-"mental breakdown ","youtube girl ","vegan ","diss track ","speeach "
+"mental breakdown ","youtube girl ","vegan ","diss track ","speech ","emo "
 ];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
@@ -48,7 +48,12 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " wants to literally fart in your face",
 " makes a virus that makes your computer explode",
 " (calls themself the tupac of youtube)"," says all white people are racist",
-" attempts to rap"," starts a youtube plague"," becomes female"
+" attempts to rap"," starts a youtube plague"," becomes female",
+" (kid overdoses)"," (the sluttiest girl on all of youtube)",
+" literally dumps bucket of cum on head"," (worst rap on all of youtube)",
+" returns mad with fire"," (literally smoking an egg & carrot)",
+" tries to end it all by burning themself in an actual oven"," triggered by me",
+" start crying"
 ];
 
 var fontfaces = ["'Roboto', sans-serif", "'Dancing Script', cursive"];
