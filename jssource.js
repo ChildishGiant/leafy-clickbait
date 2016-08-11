@@ -53,7 +53,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " literally dumps bucket of cum on head"," (worst rap on all of youtube)",
 " returns mad with fire"," (literally smoking an egg & carrot)",
 " tries to end it all by burning themself in an actual oven"," triggered by me",
-" start crying"
+" starts crying"
 ];
 
 var fontfaces = ["'Roboto', sans-serif", "'Dancing Script', cursive"];
