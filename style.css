@@ -1,10 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@font-face {
+  font-family: Tiresias;
+  src: url('fonts/Tiresias_Infofont.ttf');
+}
 
 .answer{
   font-size: 4.75em;
-	font-family: 'Dancing Script', cursive;
-  color: #fff;
+	font-family: 'Lobster', cursive;
+  color: #4e585c;
   width:auto;
   height: auto;
   position: absolute;
@@ -13,13 +16,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
   text-decoration: underline;
-  text-decoration-style:solid;
-  text-decoration-color: rgba(36, 36, 36, .4);
-  -webkit-text-decoration-color: rgba(36, 36, 36, .4);
-  -moz-text-decoration-color: rgba(36, 36, 36, .4);
-	moz-transition:all .2s ease-in;
-	-o-transition:all .2s ease-in;
-	-webkit-transition:all .2s ease-in;
 	transition:all .2s ease-in;
   cursor: pointer;
 }
@@ -31,9 +27,9 @@
 }
 
 html{
-  color:#fff;
-  background-color: #3b3b3b;
-  font-family: 'Roboto', sans-serif;
+  color: #4e585c;
+  background-color: #fdf6e3;
+  font-family: 'Tiresias', sans-serif;
 }
 
 #footnote{
@@ -46,22 +42,22 @@ html{
 }
 
 .heart {
-  fill: red;
+  fill: #dc322f;
 	width: 30px;
 }
 
 a{
-  color:#fff;
+  color:#6ea84b;
 }
 
 #button{
   cursor: pointer;
 	float: right;
-	border: 2px solid #fff;
-	padding: 2px;
-	color: #fff;
+	border: 2px solid #6ea84b;
+	padding: 4px 3px 0px 3px;
+	color: #6ea84b;
 	font-size: 2em;
-	background-color: #5e5e5e;
+	background-color: #fdf6e3;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -70,6 +66,6 @@ a{
 }
 
 #button:hover{
-	background-color: #fff;
-	color: #5e5e5e;
+	background-color: #6ea84b;
+	color: #fdf6e3;
 }
