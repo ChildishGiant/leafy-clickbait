@@ -55,10 +55,10 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " (kid overdoses)"," (the sluttiest girl on all of youtube)",
 " literally dumps bucket of cum on head"," (worst rap on all of youtube)",
 " returns mad with fire"," (literally smoking an egg & carrot)",
-" tries to end it all by burning themself in an actual oven"," triggered by me",
-" starts crying"," (the cringiest kid ever gets very angry)",
-" (buzzfeed must be stopped now)"," says black people are cows",
-" (the rise of the robots)"
+" tries to end it all by burning themself in an actual oven",
+" is triggered by me"," starts crying",
+" (the cringiest kid ever gets very angry)"," (buzzfeed must be stopped now)",
+" says black people are cows"," (the rise of the robots)"
 ];
 
 var fontfaces = ["'Tiresias', sans-serif","'Lobster', cursive"];
