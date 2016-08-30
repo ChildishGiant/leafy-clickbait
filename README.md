@@ -1,5 +1,5 @@
 # [leafy-clickbait](http://solarpolarman.github.io/leafy-clickbait/)
-A website that generate titles for LeafyIsHere's new videos.
+A website that generate titles for LeafyIsHere's new videos. Made with real quotes.
 
 Credits
 --
