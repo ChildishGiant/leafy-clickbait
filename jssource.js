@@ -20,7 +20,6 @@ var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
 "worst ","biggest ","best ","sexiest ","dirtiest ","maddest ","craziest ",
 "saddest ","spookiest ","filthiest ","angriest ","strangest ","fattest ",
-"angriest "
 ];
 
 var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
@@ -28,7 +27,7 @@ var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "music video ","furry ","human being ","human ","animation ","girls ",
 "cyber bully ","feminist ","emo man ","nazi girl ","feminist chick ",
 "mental breakdown ","youtube girl ","vegan ","diss track ","speech ","emo ",
-"racist squad ","vegan girl "
+"racist squad ","vegan girl ","girl with dick ","north korea ","anime ","song "
 ];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
@@ -36,7 +35,7 @@ var placeish = ["on the internet","on youtube","on earth","on planet earth",
 "to ever live in this world","ever to be created on the internet","to ever live"
 ,"on all of youtube","to exist on youtube ever","on youtube to ever exist",
 "of all time","ever","you'll ever witness on this website","ever to be made",
-"on this entire website"
+"on this entire website","in the history of the human race "
 ];
 
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
@@ -58,7 +57,17 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " tries to end it all by burning themself in an actual oven",
 " is triggered by me"," starts crying",
 " (the cringiest kid ever gets very angry)"," (buzzfeed must be stopped now)",
-" says black people are cows"," (the rise of the robots)"
+" says black people are cows"," (the rise of the robots)",
+" loses her own mind and now flirts with plants"," makes diss track on me",
+" makes fire diss track on everyone"," (facecam)"," (watching will cause death)",
+" (roasts me and everyone that watches me)",
+" gets sexually harassed then 0 - 10000 triggered"," (man goes completely mental)",
+" makes diss track roasting me again"," (extreme rage)"," is officially triggered",
+" cries then rages because of emojis"," has officially doomed the planet earth",
+" gets 100% naked"," paints fake bra/panties on then walks around in public"
+" (man murdered by mental grandma)"," makes diss track roasting me",
+" (100 layers of cum girl slut/fat shamed then roasts me)",
+" (listening will actually kill you)"
 ];
 
 var fontfaces = ["'Tiresias', sans-serif","'Lobster', cursive"];
