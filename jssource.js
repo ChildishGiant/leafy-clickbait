@@ -64,7 +64,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " gets sexually harassed then 0 - 10000 triggered"," (man goes completely mental)",
 " makes diss track roasting me again"," (extreme rage)"," is officially triggered",
 " cries then rages because of emojis"," has officially doomed the planet earth",
-" gets 100% naked"," paints fake bra/panties on then walks around in public"
+" gets 100% naked"," paints fake bra/panties on then walks around in public",
 " (man murdered by mental grandma)"," makes diss track roasting me",
 " (100 layers of cum girl slut/fat shamed then roasts me)",
 " (listening will actually kill you)"
