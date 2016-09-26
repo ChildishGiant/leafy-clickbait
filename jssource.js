@@ -4,12 +4,13 @@ function changetext(a){
 }
 
 $(document).ready(function() {
-  changetext(gen());
+  changetext(gen(location.search));
 });
 
-$(document).keypress(function(e) {
-  changetext(gen());
-});
+function seedToUrl(seed) {
+  location.search = seed;
+};
+
 
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic ",
@@ -58,7 +59,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " is triggered by me"," starts crying",
 " (the cringiest kid ever gets very angry)"," (buzzfeed must be stopped now)",
 " says black people are cows"," (the rise of the robots)",
-" loses her own mind and now flirts with plants"," makes diss track on me",
+" loses their own mind and now flirts with plants"," makes diss track on me",
 " makes fire diss track on everyone"," (facecam)"," (watching will cause death)",
 " (roasts me and everyone that watches me)",
 " gets sexually harassed then 0 - 10000 triggered"," (man goes completely mental)",
@@ -67,7 +68,8 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " gets 100% naked"," paints fake bra/panties on then walks around in public",
 " (man murdered by mental grandma)"," makes diss track roasting me",
 " (100 layers of cum girl slut/fat shamed then roasts me)",
-" (listening will actually kill you)"
+" (listening will actually kill you)","(the death of youtube itself)",
+"has become racist"
 ];
 
 var fontfaces = ["'Tiresias', sans-serif","'Lobster', cursive"];
@@ -77,7 +79,20 @@ function fontToggle(){
   fontfaces.reverse();
 }
 
-function gen(){
+function gen(seed){
+  if (!seed || seed.length === 0){
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for( var i=0; i < 5; i++ )
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+    seedToUrl(text);
+  }else{
+    Math.seedrandom(seed);
+  }
+
+
   newTitle = "the ";
   if (Math.random() > .5){
     newTitle = newTitle.concat("most ");
