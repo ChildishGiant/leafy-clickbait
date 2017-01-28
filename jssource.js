@@ -79,7 +79,7 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " kills themself",
 " returns for sexual revenge"," teaches you how to make a \"sex cup\"",
 " (psychologically proven)",
-" then starts living in a tree after weed drug battle"," goes homeless"
+" then starts living in a tree after weed drug battle"," goes homeless",
 " says that he wants to fist fight me"
 ];
 
