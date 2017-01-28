@@ -28,7 +28,9 @@ var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "music video ","furry ","human being ","human ","animation ","girls ",
 "cyber bully ","feminist ","emo man ","nazi girl ","feminist chick ",
 "mental breakdown ","youtube girl ","vegan ","diss track ","speech ","emo ",
-"racist squad ","vegan girl ","girl with dick ","north korea ","anime ","song "
+"racist squad ","vegan girl ","girl with dick ","north korea ","anime ","song ",
+"mom ","buzzfeed feminist ","emo girl ","little gay boy","16 year old girl ",
+"school shooter ","bully ","internet "
 ];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
@@ -36,7 +38,7 @@ var placeish = ["on the internet","on youtube","on earth","on planet earth",
 "to ever live in this world","ever to be created on the internet","to ever live"
 ,"on all of youtube","to exist on youtube ever","on youtube to ever exist",
 "of all time","ever","you'll ever witness on this website","ever to be made",
-"on this entire website","in the history of the human race "
+"on this entire website","in the history of the human race ","you will ever see "
 ];
 
 var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
@@ -68,8 +70,17 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " gets 100% naked"," paints fake bra/panties on then walks around in public",
 " (man murdered by mental grandma)"," makes diss track roasting me",
 " (100 layers of cum girl slut/fat shamed then roasts me)",
-" (listening will actually kill you)","(the death of youtube itself)",
-"has become racist"
+" (listening will actually kill you)"," (the death of youtube itself)",
+" has become racist"," roasts me and literally puts a demon curse on me",
+" says all white men must die"," enraged with more reasons to have sex with dogs",
+" returns"," returns to say \"i've stolen your girl, she's a bad hoe\"",
+" wants me to go to jail for cyberbullying her",
+" drops diss track saying they hate my youtube channel and christmas",
+" kills themself",
+" returns for sexual revenge"," teaches you how to make a \"sex cup\"",
+" (psychologically proven)",
+" then starts living in a tree after weed drug battle"," goes homeless"
+" says that he wants to fist fight me"
 ];
 
 var fontfaces = ["'Tiresias', sans-serif","'Lobster', cursive"];
