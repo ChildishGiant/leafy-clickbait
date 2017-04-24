@@ -9,6 +9,7 @@ $(document).ready(function() {
 
 function seedToUrl(seed) {
   location.search = seed;
+  gen(text);
 };
 
 
