@@ -1,4 +1,4 @@
-# [leafy-clickbait](http://solarpolarman.github.io/leafy-clickbait/)
+# [leafy-clickbait](http://ChildishGiant.github.io/leafy-clickbait/)
 A website that generate titles for LeafyIsHere's new videos. Made with real quotes.
 
 Credits
