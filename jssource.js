@@ -16,7 +16,8 @@ function seedToUrl(seed) {
 var intensifiers = ["savage ","gay ","deprived ","desperate ","cringy ",
 "disgusting ","nasty ","hot ","erotic ", "terrifiying ","angry ", "psychotic ",
 "miserable ","savage cringey ","offensive ","insane ","sexually desperate ",
-"offended ","racist ","crazed ","annoying ","motivational ","upset ","hardcore "
+"offended ","racist ","crazed ","annoying ","motivational ","upset ","hardcore ",
+"racist "
 ];
 
 var ists = ["nastiest ","cringiest ","hottest ","unhappyist ","scariest ",
@@ -31,7 +32,7 @@ var noun = ["minecraft animation ","gay ","man ","kid ","video ","woman ",
 "mental breakdown ","youtube girl ","vegan ","diss track ","speech ","emo ",
 "racist squad ","vegan girl ","girl with dick ","north korea ","anime ","song ",
 "mom ","buzzfeed feminist ","emo girl ","little gay boy","16 year old girl ",
-"school shooter ","bully ","internet "
+"school shooter ","bully ","internet ", "safespace youtuber "
 ];
 
 var placeish = ["on the internet","on youtube","on earth","on planet earth",
@@ -81,7 +82,11 @@ var cherry = [" roasts me"," wants me"," drinks bleach"," ever",
 " returns for sexual revenge"," teaches you how to make a \"sex cup\"",
 " (psychologically proven)",
 " then starts living in a tree after weed drug battle"," goes homeless",
-" says that he wants to fist fight me"
+" says that he wants to fist fight me",
+" tells her best friend that she wants to have a threesome with her boyfriend",
+"  drops out of highschool cause shes \"the next jake paul of youtube\" on dr phil",
+" breaksdown", " gets a second boob job", " must be stopped now",
+" (not even clickbaiting)", " has a message for anyone who watches my videos"
 ];
 
 var fontfaces = ["'Tiresias', sans-serif","'Lobster', cursive"];
