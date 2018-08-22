@@ -1,12 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-@font-face {
-  font-family: Tiresias;
-  src: url('fonts/Tiresias_Infofont.ttf');
-}
 
-.answer{
+.answer {
   font-size: 4.75em;
-	font-family: 'Lobster', cursive;
   color: #4e585c;
   width:auto;
   height: auto;
@@ -15,24 +9,18 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  text-decoration: underline;
 	transition:all .2s ease-in;
   cursor: pointer;
+  font-weight: 400;
 }
 
-.answer:hover{
-  text-decoration-color: rgba(36, 36, 36, .9);
-  -webkit-text-decoration-color: rgba(36, 36, 36, .9);
-  -moz-text-decoration-color: rgba(36, 36, 36, .9);
-}
-
-html{
+html {
   color: #4e585c;
   background-color: #fdf6e3;
-  font-family: 'Tiresias', sans-serif;
+	font-family: Roboto, Arial, sans-serif;
 }
 
-#footnote{
+#footnote {
   top:95%;
   height: 5%;
   width:100%;
@@ -46,11 +34,11 @@ html{
 	width: 30px;
 }
 
-a{
+a {
   color:#6ea84b;
 }
 
-.button{
+.button {
   cursor: pointer;
 	float: right;
 	border: 2px solid #6ea84b;
@@ -65,12 +53,12 @@ a{
 	transition: all 500ms ease;
 }
 
-.button:hover{
+.button:hover {
 	background-color: #6ea84b;
 	color: #fdf6e3;
 }
 
-#seedBox{
+#seedBox {
   margin-top: 5;
   top:0;
   height: 5%;
