@@ -5,6 +5,4 @@ Credits
 --
 [github-corners](https://github.com/tholman/github-corners) (MIT License)
 
-~~[Tiresias Font](https://www.fontsquirrel.com/fonts/tiresias-infofont) (GNU General Public License)~~ no longer used
-
 [seedrandom](https://github.com/davidbau/seedrandom) (MIT License)
